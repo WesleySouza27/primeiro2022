@@ -1,0 +1,6 @@
+frase = str(input('digite uma frase: ')).strip()
+letra = frase.lower().count('a')
+print(f'Sua frase tem {letra} letras "a" nela!')
+#print('a primeira ocorrencia da letra a é na',frase.find("a"),'º posição')
+print(f'a primeira ocorrência da letra a na frase é na posição {frase.find("a")}')
+print(f'a ultima ocorrência da letra a na frase é na posição {frase.rfind("a")}')
